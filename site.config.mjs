@@ -20,7 +20,7 @@ export default {
       "croissant em Araucária",
       "Tokyo Café Araucária",
     ],
-    canonical: "https://tokyo-cafe-araucaria.vercel.app/",
+    canonical: "https://tokyo-cafe-two.vercel.app/",
     locale: "pt_BR",
     schemaType: "CafeOrCoffeeShop",
   },

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tokyo-cafe-araucaria.vercel.app/sitemap.xml
+Sitemap: https://tokyo-cafe-two.vercel.app/sitemap.xml
