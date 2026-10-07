@@ -132,8 +132,8 @@ button {
 
 .brand-lockup {
   width: clamp(7.8rem, 12vw, 10.5rem);
-  height: 4.5rem;
-  padding: 0.3rem 0.45rem;
+  aspect-ratio: 3 / 2;
+  padding: 0.2rem;
   display: inline-flex;
   align-items: center;
   flex: 0 0 auto;
@@ -1004,8 +1004,7 @@ button {
 
   .brand-lockup {
     width: 6.8rem;
-    height: 3.75rem;
-    padding: 0.25rem 0.35rem;
+    padding: 0.18rem;
   }
 
   .header-cta {
