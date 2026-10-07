@@ -5,8 +5,7 @@ export default {
     name: "Tokyo 阿部 Café",
     shortName: "TC",
     tagline: "Uma pausa especial no seu dia.",
-    logo:
-      "https://client-assets.anota.ai/establishment-logos/67191429f07aa1001255b1181789653609586blob",
+    logo: "/assets/tokyo-cafe-logo.png",
     logoAlt: "Tokyo 阿部 Café",
   },
 
