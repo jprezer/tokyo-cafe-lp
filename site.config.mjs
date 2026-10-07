@@ -5,7 +5,8 @@ export default {
     name: "Tokyo 阿部 Café",
     shortName: "TC",
     tagline: "Uma pausa especial no seu dia.",
-    logo: "/assets/tokyo-cafe-logo.png",
+    logo:
+      "https://client-assets.anota.ai/establishment-logos/67191429f07aa1001255b1181789653609586blob",
     logoAlt: "Tokyo 阿部 Café",
   },
 
@@ -55,8 +56,8 @@ export default {
     description:
       "Do espresso ao matcha, dos croissants aos doces de fabricação própria: um espaço tranquilo para aproveitar o seu tempo em Araucária.",
     image:
-      "https://lh3.googleusercontent.com/grass-cs/ACvplmPrzA9bgPHZI0pZ5kv8W2TBRX0yERjojCjU8RKOKD5BIdXAlEa3ijc1MLexV5eW2MqEYo1MtdS4UBrR5enkl3oyEnKepWEV-0iKpKRlGl7NhU6rwwALu0QLmqPTU1Q8WD32UophHhlRiNc=w1200-h1200-n-k-no",
-    imageAlt: "Croissant com queijo servido no Tokyo 阿部 Café",
+      "https://client-assets.anota.ai/produtos/67191429f07aa1001255b118/-1758384912687blob",
+    imageAlt: "Cappuccino Hazelnut do Tokyo 阿部 Café",
     imagePosition: "58% center",
     proofLabel: "Cafés especiais",
     proofValue: "Cultura japonesa",
@@ -101,19 +102,19 @@ export default {
     items: [
       {
         image:
-          "https://lh3.googleusercontent.com/grass-cs/ACvplmOK2C8gthSBgwAtTEhDOz88srPa8_ORjo0xzYhipPGv1GCbynZnVsHpAx9m1HscDA8Unc6lrgyfmYccB7wrfe0b-ocEhAPbaRdDa6h-vs_a6HFcTNyMk7x38ZDJzW15cAgo6KKl7-ps34ta=w1200-h1200-n-k-no",
-        alt: "Cappuccino servido no Tokyo 阿部 Café",
+          "https://client-assets.anota.ai/produtos/67191429f07aa1001255b118/-1730996941181blob",
+        alt: "Cappuccino Italiano do Tokyo 阿部 Café",
         caption: "Café especial",
       },
       {
         image:
-          "https://lh3.googleusercontent.com/grass-cs/ACvplmNyDLnb6fGG3RpGdz4vewRBLRneGqn_p-utC52DCS7D4KliApU5eh5p3571WS7Dt21zbY5If8-j_XSBGm4ncNGJbytxwiSS9kk8H_mkM1iTkE2LbuTpjuZIgnFaK78NQAT1W2QFu_yxnODc=w1200-h1200-n-k-no",
-        alt: "Matcha latte servido no Tokyo 阿部 Café",
+          "https://client-assets.anota.ai/produtos/67191429f07aa1001255b118/-1731451484827blob",
+        alt: "Iced Matcha Latte do Tokyo 阿部 Café",
         caption: "Matcha da casa",
       },
       {
         image:
-          "https://lh3.googleusercontent.com/grass-cs/ACvplmPc61BHn8BIub7iagvJJkAgyUtEx16TwlSOpXSC8oeFQktf3w8VXUliTxc-811dBAH7H7gghmqdal7dG--j5lOch6x6joO5ny2npJT7uCjma8XEtSZ706mEa-sRQm1ZcmM5miPMdfz2vu2j=w1200-h1200-n-k-no",
+          "https://client-assets.anota.ai/produtos/67191429f07aa1001255b118/-1774046281121blob",
         alt: "Taiyaki do Tokyo 阿部 Café",
         caption: "Doces da casa",
       },
