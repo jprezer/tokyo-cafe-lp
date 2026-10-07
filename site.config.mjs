@@ -2,168 +2,187 @@ export default {
   preset: "warm",
 
   brand: {
-    name: "Casa Brasa",
-    shortName: "CB",
-    tagline: "Fogo, tempo e mesa cheia.",
-    logo: "/assets/casa-brasa-logo.svg",
-    logoAlt: "Casa Brasa",
+    name: "Tokyo 阿部 Café",
+    shortName: "TC",
+    tagline: "Uma pausa especial no seu dia.",
+    logo: "/assets/tokyo-cafe-wordmark.svg",
+    logoAlt: "Tokyo 阿部 Café",
   },
 
   seo: {
-    title: "Casa Brasa | Cozinha de fogo em Curitiba",
+    title: "Tokyo 阿部 Café | Cafés especiais em Araucária",
     description:
-      "Cozinha de fogo, ingredientes locais e uma mesa feita para ficar. Conheça a Casa Brasa, no Batel, em Curitiba.",
+      "Tokyo 阿部 Café em Araucária: cafés especiais, matcha, croissants, torradas e doces em um espaço inspirado na cultura japonesa. Peça online.",
     keywords: [
-      "restaurante em Curitiba",
-      "cozinha de fogo",
-      "restaurante no Batel",
-      "Casa Brasa",
+      "cafeteria em Araucária",
+      "café especial em Araucária",
+      "matcha em Araucária",
+      "croissant em Araucária",
+      "Tokyo Café Araucária",
     ],
-    canonical: "https://casabrasa.example/",
+    canonical: "https://tokyo-cafe-araucaria.vercel.app/",
     locale: "pt_BR",
-    schemaType: "Restaurant",
+    schemaType: "CafeOrCoffeeShop",
   },
 
   announcement: {
-    label: "Batel · Curitiba",
-    actionLabel: "Reservas para esta noite",
+    label: "Fazenda Velha · Araucária",
+    actionLabel: "Ver cardápio e pedir",
   },
 
   contact: {
-    primaryLabel: "Reservar uma mesa",
-    footerPrimaryLabel: "Reservas",
-    primaryUrl: "#visite",
-    phone: "+55 41 99999-0000",
-    instagramLabel: "Conheça a casa",
+    primaryLabel: "Pedir pelo cardápio",
+    footerPrimaryLabel: "Fazer pedido",
+    primaryUrl: "https://pedido.anota.ai/loja/tokyo-cafe",
+    phone: "+55 41 99881-1325",
+    instagramLabel: "Ver Instagram",
     socialLabel: "Instagram",
-    instagramUrl: "https://www.instagram.com/",
+    instagramUrl: "https://www.instagram.com/tokyocafe.araucaria/",
     mapsUrl:
-      "https://www.google.com/maps/search/?api=1&query=Batel%2C+Curitiba%2C+PR",
+      "https://www.google.com/maps/place/TOKYO+%E9%98%BF%E9%83%A8+CAFE/@-25.5759704,-49.3990179,17z/data=!3m1!4b1!4m6!3m5!1s0x94dd038480b80c25:0x771a1ff7dd4d0eff!8m2!3d-25.5759704!4d-49.3990179!16s%2Fg%2F11ltp2zc0w",
   },
 
   navigation: [
-    { label: "Experiência", href: "#servicos" },
-    { label: "À mesa", href: "#avaliacoes" },
-    { label: "Visite", href: "#visite" },
+    { label: "O café", href: "#servicos" },
+    { label: "Avaliações", href: "#avaliacoes" },
+    { label: "Como chegar", href: "#visite" },
   ],
 
   hero: {
-    kicker: "Cozinha de fogo em Curitiba",
-    title: ["Fogo lento.", "Mesa", "cheia."],
+    kicker: "Café especial e sabores que acolhem",
+    title: ["Faça uma", "pausa", "especial."],
     accentLine: 1,
     description:
-      "Ingredientes locais, brasa acesa e pratos feitos para atravessar a noite sem pressa.",
-    image: "/assets/casa-brasa-hero.jpg",
-    imageAlt: "Chef finalizando um prato entre as chamas da cozinha",
+      "Do espresso ao matcha, dos croissants aos doces de fabricação própria: um espaço tranquilo para aproveitar o seu tempo em Araucária.",
+    image:
+      "https://img02.restaurantguru.com/c10f-Restaurant-TOKYO-CAFE-Araucaria-cappuccino.jpg",
+    imageAlt: "Cappuccino e croissant servidos no Tokyo 阿部 Café",
     imagePosition: "58% center",
-    proofLabel: "Cozinha aberta",
-    proofValue: "Terça a domingo",
-    scrollLabel: "Descubra a casa",
+    proofLabel: "Cafés especiais",
+    proofValue: "Cultura japonesa",
+    scrollLabel: "Conheça o Tokyo",
   },
 
   statement: {
-    label: "Nossa mesa",
-    text: "A chama muda o ingrediente. O tempo transforma a refeição em encontro.",
-    accent: "encontro.",
+    label: "Uma pausa no seu dia",
+    text: "Bom café, tempo sem pressa e pequenos sabores para fazer o dia ficar mais leve.",
+    accent: "dia ficar mais leve.",
   },
 
   services: {
-    title: "Da brasa para a mesa.",
+    title: "Mais do que um café.",
     description:
-      "Uma cozinha direta, guiada pela estação e feita para dividir. Cada serviço tem o ritmo da chama e o cuidado de quem recebe.",
+      "O Tokyo une o cuidado do café de especialidade a receitas que vão do clássico ao japonês — para uma pausa rápida ou uma tarde inteira.",
     items: [
       {
-        title: "Menu de fogo",
+        title: "Cafés de origem",
         description:
-          "Carnes, vegetais e acompanhamentos preparados na brasa e servidos no centro da mesa.",
-        detail: "Ingredientes locais · Safra do dia",
+          "Espresso, coados e bebidas preparadas com grãos de especialidade, respeitando o perfil de cada café.",
+        detail: "Espresso · V60 · Cappuccino",
       },
       {
-        title: "Bar da casa",
+        title: "Matcha e criações da casa",
         description:
-          "Drinks autorais, vinhos de pequenos produtores e sugestões para acompanhar cada prato.",
-        detail: "Coquetéis · Vinhos · Sem álcool",
+          "Matcha premium, frappés e bebidas autorais que trazem outras possibilidades para a pausa do dia.",
+        detail: "Matcha · Frappés · Drinks autorais",
       },
       {
-        title: "Mesa compartilhada",
+        title: "Forno, doce e aconchego",
         description:
-          "Um salão acolhedor para jantares, encontros e celebrações sem cerimônia.",
-        detail: "Reservas · Grupos · Eventos",
+          "Croissants, shokupan, cookies e sobremesas feitos para acompanhar a conversa — ou virar o motivo dela.",
+        detail: "Croissants · Torradas · Doces",
       },
     ],
   },
 
-  // Para exibir uma galeria, adicione `gallery` seguindo o exemplo do README.
+  gallery: {
+    label: "Escolha sua pausa",
+    title: "Café para ficar. Sabores para voltar.",
+    items: [
+      {
+        image:
+          "https://img02.restaurantguru.com/ce42-Restaurant-TOKYO-CAFE-Araucaria-chocolate-cake.jpg",
+        alt: "Café e bolo servidos no Tokyo 阿部 Café",
+        caption: "Café e sobremesa",
+      },
+      {
+        image:
+          "https://img02.restaurantguru.com/c68b-Restaurant-TOKYO-CAFE-Araucaria-dishes.jpg",
+        alt: "Bebidas preparadas no Tokyo 阿部 Café",
+        caption: "Bebidas da casa",
+      },
+      {
+        image:
+          "https://img02.restaurantguru.com/cc4d-Restaurant-TOKYO-CAFE-Araucaria-food.jpg",
+        alt: "Torradas e snacks do Tokyo 阿部 Café",
+        caption: "Para acompanhar",
+      },
+    ],
+  },
 
   reviews: {
-    label: "Avaliações de demonstração",
-    title: "Uma noite para ficar na memória.",
-    rating: "4,9",
-    total: "Conteúdo fictício para personalização",
-    sourceLabel: "Ver localização no Google Maps",
+    label: "Avaliações no Google",
+    title: "Uma pausa que surpreende.",
+    rating: "4,7",
+    total: "104 avaliações no Google",
+    sourceLabel: "Ver avaliações no Google Maps",
     items: [
       {
         quote:
-          "A comida chega no centro da mesa e muda o ritmo da noite. Tudo tem sabor de cuidado.",
-        author: "Cliente de exemplo",
-        score: "5/5",
+          "Eu e meu marido sempre frequentamos cafés em Curitiba e pelo mundo, porém este superou em muito a maior parte deles.",
+        author: "Thiago Wagner",
+        score: "5/5 · Google",
       },
       {
         quote:
-          "Ambiente bonito sem ser formal, serviço atento e uma seleção de vinhos muito bem pensada.",
-        author: "Cliente de exemplo",
-        score: "5/5",
-      },
-      {
-        quote:
-          "Voltaria só pelo pão na brasa, mas o jantar inteiro foi excelente.",
-        author: "Cliente de exemplo",
-        score: "5/5",
+          "Adoramos o ambiente, o atendimento, os cafés, os salgados e bolos. Queremos voltar. Recomendo.",
+        author: "Elibelto Almeida",
+        score: "5/5 · Google",
       },
     ],
   },
 
   location: {
-    label: "Venha para a mesa",
-    title: "No coração do Batel.",
+    label: "Venha fazer uma pausa",
+    title: "Seu café em Araucária.",
     description:
-      "A Casa Brasa é uma marca fictícia criada para demonstrar o white label. Substitua todos os dados antes de publicar.",
-    actionLabel: "Abrir região no Google Maps",
-    addressLines: ["Rua de Exemplo, 120", "Batel · Curitiba — PR"],
+      "O Tokyo 阿部 Café fica na Fazenda Velha, com opções para aproveitar no salão, retirar ou pedir pelo cardápio online.",
+    actionLabel: "Traçar rota no Google Maps",
+    addressLines: [
+      "Rua Nossa Senhora dos Remédios, 2046",
+      "Fazenda Velha · Araucária — PR · 83704-265",
+    ],
     address: {
-      street: "Rua de Exemplo, 120",
-      city: "Curitiba",
+      street: "Rua Nossa Senhora dos Remédios, 2046",
+      city: "Araucária",
       region: "PR",
-      postalCode: "80000-000",
+      postalCode: "83704-265",
       country: "BR",
     },
     hours: [
-      "Terça a quinta · 18h às 23h",
-      "Sexta e sábado · 18h à 00h",
-      "Domingo · 12h às 17h",
+      "Segunda a sexta · 12h às 20h",
+      "Sábado e domingo · 9h30 às 20h",
     ],
     openingHours: [
       {
-        days: ["Tuesday", "Wednesday", "Thursday"],
-        opens: "18:00",
-        closes: "23:00",
+        days: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "12:00",
+        closes: "20:00",
       },
-      {
-        days: ["Friday", "Saturday"],
-        opens: "18:00",
-        closes: "00:00",
-      },
-      { days: ["Sunday"], opens: "12:00", closes: "17:00" },
+      { days: ["Saturday", "Sunday"], opens: "09:30", closes: "20:00" },
     ],
     mapEmbedUrl:
-      "https://www.google.com/maps?q=Batel,+Curitiba,+PR&output=embed",
+      "https://www.google.com/maps?q=Tokyo+Cafe,+Rua+Nossa+Senhora+dos+Rem%C3%A9dios,+2046,+Arauc%C3%A1ria+-+PR&output=embed",
   },
 
   theme: {
-    accent: "oklch(70% 0.17 245)",
-    ink: "oklch(18% 0.025 30)",
-    paper: "oklch(97% 0.004 30)",
-    displayFont: null,
-    bodyFont: null,
+    accent: "oklch(62% 0.12 31)",
+    accentStrong: "oklch(69% 0.13 31)",
+    ink: "oklch(18% 0.018 38)",
+    paper: "oklch(96% 0.012 76)",
+    displayFont: "'Noto Serif JP', Georgia, serif",
+    bodyFont: "'DM Sans', Arial, sans-serif",
+    fontGoogle:
+      "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Noto+Serif+JP:wght@500;600;700&display=swap",
   },
 };
