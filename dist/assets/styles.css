@@ -127,17 +127,17 @@ button {
   display: flex;
   align-items: center;
   gap: clamp(1.5rem, 4vw, 4rem);
-  border-bottom: 1px solid var(--line-on-dark);
+  border-bottom: 1px solid var(--line-on-light);
+  background: var(--color-paper);
+  color: var(--color-ink);
 }
 
 .brand-lockup {
-  width: clamp(7.8rem, 12vw, 10.5rem);
+  width: clamp(7.6rem, 9vw, 9.6rem);
   aspect-ratio: 3 / 2;
-  padding: 0.2rem;
   display: inline-flex;
   align-items: center;
   flex: 0 0 auto;
-  background: var(--color-paper);
 }
 
 .brand-lockup img {
@@ -1003,8 +1003,7 @@ button {
   }
 
   .brand-lockup {
-    width: 6.8rem;
-    padding: 0.18rem;
+    width: 6.4rem;
   }
 
   .header-cta {
