@@ -5,7 +5,7 @@ export default {
     name: "Tokyo 阿部 Café",
     shortName: "TC",
     tagline: "Uma pausa especial no seu dia.",
-    logo: "/assets/tokyo-cafe-wordmark.svg",
+    logo: "/assets/tokyo-cafe-logo.png",
     logoAlt: "Tokyo 阿部 Café",
   },
 
