@@ -65,7 +65,7 @@ export default {
 
   statement: {
     label: "Uma pausa no seu dia",
-    text: "Café especial, matcha e sabores da casa. O resto pode esperar um pouco.",
+    text: "Cafés especiais e sabores da casa em Araucária.",
     accent: "",
   },
 
