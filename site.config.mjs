@@ -65,8 +65,8 @@ export default {
 
   statement: {
     label: "Uma pausa no seu dia",
-    text: "Bom café, tempo sem pressa e pequenos sabores para fazer o dia ficar mais leve.",
-    accent: "dia ficar mais leve.",
+    text: "Café especial, matcha e sabores da casa. O resto pode esperar um pouco.",
+    accent: "",
   },
 
   services: {
